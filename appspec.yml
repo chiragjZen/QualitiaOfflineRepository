@@ -5,5 +5,5 @@ files:
     destination: C:/Offlinepackage
 hooks:
   AfterInstall:
-    - location: Runjar.bat
+    - location: C:/Offlinepackage/Runjar.bat
       runas: windows
