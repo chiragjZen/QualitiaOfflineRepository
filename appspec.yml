@@ -1,0 +1,9 @@
+version: 0.0
+os: windows
+files:
+  - source: ./
+    destination: C:/Windows/CodeDeploy
+hooks:
+  ApplicationStart:
+    - location: runjar.bat
+      runas: windows
