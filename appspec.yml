@@ -5,5 +5,5 @@ files:
     destination: C:/Offlinepackage
 hooks:
   ApplicationStart:
-    - location: runjar.bat
+    - location: Runjar.bat
       runas: windows
