@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: ./
-    destination: C:/Windows/CodeDeploy
+    destination: C:/Offlinepackage
 hooks:
   ApplicationStart:
     - location: runjar.bat
