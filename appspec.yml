@@ -4,6 +4,6 @@ files:
   - source: .\
     destination: C:\Offlinepackage
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: \Runjar.bat
       timeout: 3600
