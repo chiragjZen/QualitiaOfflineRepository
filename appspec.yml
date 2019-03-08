@@ -2,8 +2,8 @@ version: 0.0
 os: windows
 files:
   - source: .\
-    destination: C:/Offlinepackage
+    destination: C:\Offlinepackage
 hooks:
-  AfterInstall:
-    - location: Runjar.bat
+  BeforeInstall:
+    - location: \Runjar.bat
       runas: windows
